@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */              /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "outDir": "DIRECTORY" ,                               /* Redirect output structure to the directory.*/
+    "rootDir": "src" ,                                    /* Specify the root directory of input files*/
+    "declaration": true,                                  
+    "allowJs": true,                                      /* Generates corresponding .d.ts file*/
+    "sourceMap": true,                                    /* Generates corresponding .map file*/
+    "declarationMap": true,                               /* Emit inline source maps*/
+    "inlineSources": true,
+    "strictNullChecks": true,                             /* Enable strict null checks*/
+    "noImplicitAny":true,                                 /* Raise error on expressions and declarations with an implied 'any' type*/
+    "noUnusedLocals":true,                                /* Report errors on unused local variables*/
+    "noUnusedParameters":true                             /* Report errors on unused parameters*/
+  },
+  // "files": [
+  //   "Task_1.ts",
+  //   "Task_2.ts",
+  //   "Task_3.ts",
+  //   "Task_4.ts",
+  // ],
+  "include": [
+    "src/*"
+  ]
+}
